@@ -1,0 +1,11 @@
+<p>
+  <mat-dialog-content *ngFor="let product of products">
+    {{product.description}}
+  </mat-dialog-content>
+  Profitez de cet article à 10 euros pour les fetes de noel. Nous vous permettons de faire des cadeau qui ne seront jamais oubliés.
+</p>
+
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</div>
+<router-outlet></router-outlet>
